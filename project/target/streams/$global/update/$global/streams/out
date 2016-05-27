@@ -1,0 +1,52 @@
+[info] Updating {file:/Users/rasmus/projects/scalashop/project/}scalashop-build...
+[debug] :: resolving dependencies :: default#scalashop-build;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}
+[info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		tried /Users/rasmus/.ivy2/local/org.scalastyle/scalastyle_2.10/0.8.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		tried https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom
+[debug] 	jcenter: found md file for org.scalastyle#scalastyle_2.10;0.8.0
+[debug] 		=> https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom (0.8.0)
+[debug] downloading https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.pom
+[debug] 	[SUCCESSFUL ] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.pom(pom.original) (153ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] 		tried /Users/rasmus/.ivy2/local/org.scalastyle/scalastyle_2.10/0.8.0/jars/scalastyle_2.10.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalastyle/scalastyle_2.10/0.8.0/scalastyle_2.10-0.8.0.jar
+[debug] 	found org.scalastyle#scalastyle_2.10;0.8.0 in jcenter
+[debug] == resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5
+[debug] 	found org.scala-lang#scala-library;2.10.5 in sbt-chain
+[debug] 	[2.10.5] org.scala-lang#scala-library;2.10.5
+[debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile]
+[debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
+[info] Resolving org.scalariform#scalariform_2.10;0.1.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalariform#scalariform_2.10;0.1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.scalariform#scalariform_2.10;0.1.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalariform#scalariform_2.10;0.1.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalariform/scalariform_2.10/0.1.7/ivys/ivy.xml
